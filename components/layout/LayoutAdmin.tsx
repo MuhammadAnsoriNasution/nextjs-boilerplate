@@ -8,7 +8,7 @@ import React, { ReactNode, useEffect, useState } from 'react'
 interface Props {
     children: ReactNode
 }
-export default function LayoutPrivate({ children }: Props) {
+export default function LayoutAdmin({ children }: Props) {
     const [showSubMenu, setShowSubMenu] = useState(false)
     const [showSideBar, setShowSidebar] = useState<boolean>(true)
     const { isMobile } = useWindowDimensions()
