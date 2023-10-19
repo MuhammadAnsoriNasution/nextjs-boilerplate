@@ -1,4 +1,4 @@
-import LayoutPrivate from '@/components/layout/private/LayoutPrivate'
+import LayoutPrivate from '@/components/layout/LayoutAdmin'
 import { NextPageWithLayout } from './_app'
 import Head from 'next/head'
 
